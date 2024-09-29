@@ -91,3 +91,32 @@ html,body,#root{
     background-color: rgb(230, 224, 224);
   }
 }
+@media (max-width:600px)
+{
+  .box{
+    width:90%;
+  }
+  .top-left{
+    width:60%;
+  }
+  .top-left h1{
+    font-size:6.7vw;
+  }
+  .top-left h2{
+    font-size:4vw;
+  }
+  .top button{
+    padding:5% 7%;
+    font-size:3.5vw;
+  }
+  .box input{
+    padding:4% 6%;
+    font-size:5vw;
+  }
+  .AddTask div h1{
+    font-size:5vw;
+  }
+  .AddTask div button{
+    font-size:4.7vw;
+  }
+}
